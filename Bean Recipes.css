@@ -1,0 +1,38 @@
+
+Body {
+    padding: 25px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+  background: #f0dbb6;
+}
+.first-image { 
+  width: 625px;
+  height: 700px;
+}
+img:hover{
+  transform: scale(1.01);
+  transform: filter: blur(100%);
+  
+  box-shadow: 0 0 20px brown;
+}
+img {
+  width: 670px;
+  height: 807px;
+}
+
+.title {
+  font-family: "Noto Sans", sans-serif;
+  color: White;
+  font-size: 30px;
+}
+   Button{
+    background: brown;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+  }
+  
+ Button:hover{
+  transform: scale(1.1);
+  
+  box-shadow: 0 0 20px brown;
+}
